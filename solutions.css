@@ -1,0 +1,11 @@
+/* SOLUTIONS */
+
+/* ESERCIZIO 1 */
+
+.ex-1-square:hover{
+  background-color: red;
+}
+
+.ex-1-square{
+  transition: all 2s;
+}

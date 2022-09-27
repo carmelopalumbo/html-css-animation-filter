@@ -92,3 +92,27 @@
 .ex-9-img{
   transition: all 2s;
 }
+
+/* ESERCIZIO 10 */
+
+.ex-10-icon{
+  animation: keep-spin 1s linear infinite;
+}
+
+@keyframes keep-spin{
+  0%{
+    transform: rotate(360deg);
+  }
+}
+
+/* ESERCIZIO 11 */
+
+.ex-11-icon:hover{
+  animation: spin 2s linear;
+}
+
+@keyframes spin{
+  90%{
+    transform: rotate(315deg);
+  }
+}

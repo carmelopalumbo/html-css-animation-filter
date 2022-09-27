@@ -80,3 +80,15 @@
 .ex-8-img{
   transition: all 1s;
 }
+
+/* ESERCIZIO 9 */
+
+.ex-9-img:hover{
+  filter: grayscale(.5) sepia(.3);
+  border-radius: 15px;
+  transform: scale(1.5);
+}
+
+.ex-9-img{
+  transition: all 2s;
+}
